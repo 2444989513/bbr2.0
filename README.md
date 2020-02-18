@@ -14,10 +14,8 @@ sudo grub2-set-default 'CentOS Linux (5.4.0-rc6) 7 (Core)'
 sudo grub2-editenv list
 
 reboot
-grub2-mkconfig -o /boot/grub2/grub.cfg
-
-
 uname -r
+grub2-mkconfig -o /boot/grub2/grub.cfg
 
 sed -i '/net.core.default_qdisc/d' /etc/sysctl.conf
 echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
