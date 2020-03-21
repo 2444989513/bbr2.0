@@ -30,6 +30,8 @@ reboot
 lsmod | grep bbr
 
 ```
-
+```
+yum remove $(rpm -qa | grep kernel | grep -v $(uname -r))
+```
 --------------------
 
