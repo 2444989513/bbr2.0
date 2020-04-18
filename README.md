@@ -1,7 +1,6 @@
 # bbr2.0
 
 --------------------
-bash <(curl -L -s https://raw.githubusercontent.com/2444989513/bbr2.0/master/optimizing_system.sh)
 
 # CentOS
 ```
